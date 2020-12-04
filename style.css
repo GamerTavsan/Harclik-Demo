@@ -49,3 +49,12 @@ text-align: center;
     font-size: 50px;
     font-family: 'Pacifico', sans-serif;
 }
+
+#para {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+}
