@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 html{
     box-sizing: border-box;
@@ -10,7 +12,7 @@ body{
 }
 
 .image-container{
-text-align: center;
+    text-align: center;
 }
 
 #harçlık {
@@ -29,6 +31,23 @@ text-align: center;
 
 }
 
+#harçlık-yazı {
+    font-size: 50px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+#para {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgba(256,256,256,0.7);
+}
+
+
 #yüzde {
     width: 400px;
     height: 500px;
@@ -45,16 +64,58 @@ text-align: center;
     
 }
 
-#harçlık-yazı {
+#yüzde-yazı {
     font-size: 50px;
     font-family: 'Pacifico', sans-serif;
 }
 
-#para {
+#yüzdelik {
     width: 250px;
     height: 200px;
     margin: 10px;
     border-radius: 8px;
     font-family: 'Pacifico', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgba(256,256,256,0.7);
+}
+
+.anayazi {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    right: 5%;
+    color: rgb(255, 171, 214);
+    text-shadow:  rgb(167, 111, 140) 0 0.3rem;
+    
+}
+
+
+button {
+    font-family: 'Pacifico', sans-serif;
+    cursor: pointer;
+    font-size: 1.6rem;
+    height: 150px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(255, 171, 214);
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgb(167, 111, 140);
+    position: absolute;
+    bottom: 10%;
+    right: 45.8%;
+}
+
+button:hover{
+    filter:brightness(103%)
+}
+
+button:active{
+    transform: translate(0,0.3rem);
+    box-shadow: 0 0.1rem  rgb(167, 111, 140);
 }

@@ -11,10 +11,14 @@
 <body>
     <!-- Container-->
     <div class="image-container">
+        <!--Ana Yazı-->
+        <div class="anayazi">Artık sende para biriktirebileceksin </div>
         <!--Harçlık-->
-        <div id="harçlık"><h1 id="harçlık-yazı">Haftalık kaç lira alıyorsun ?</h1><input type="text" id="para" size="24" onkeypress="return isNumberKey(event)"></div>
+        <div id="harçlık"><h1 id="harçlık-yazı">Haftalık kaç lira alıyorsun ?</h1><input type="text" id="para" size="24" onkeypress="return isNumberKey(event)" maxlength="15"></div>
         <!--Yüzdelik-->
-        <div id="yüzde"></div>
+        <div id="yüzde"><h1 id="yüzde-yazı">Yüzde (%) kaçını biriktireceksin ?</h1><input type="text" id="yüzdelik" size="24" onkeypress="return isNumberKey(event)" maxlength="3"></div>
+        <!--Buton-->
+        <button id="buton">HESAPLA</button>
     </div>
     <!--Script-->
     <script src="scripts.js"></script>
